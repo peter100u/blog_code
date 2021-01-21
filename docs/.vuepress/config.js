@@ -4,7 +4,7 @@ module.exports = {
 
     title: 'Peter的个人博客',
     description: description,
-    base: '/blog',
+    base: '/blog/',
     head: [
         ['meta', {name: 'theme-color', content: '#3eaf7c'}],
         ['meta', {name: 'apple-mobile-web-app-capable', content: 'yes'}],
@@ -45,10 +45,6 @@ module.exports = {
                 text: 'jetpack',
                 link: '/jetpack/'
             },
-            {
-                text: '关于我',
-                link: 'https://v1.vuepress.vuejs.org'
-            }
         ],
         sidebar: {
             '/java/': [
